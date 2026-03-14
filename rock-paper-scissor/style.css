@@ -1,0 +1,51 @@
+body{
+ 
+text-align:center;
+background: rgb(203, 141, 141);
+color:white;
+}
+
+h1{
+margin-top:30px;
+}
+
+.choices{
+margin-top:40px;
+}
+
+.choice{
+font-size:60px;
+padding:20px;
+margin:10px;
+border:none;
+border-radius:15px;
+cursor:pointer;
+transition:transform 0.2s, box-shadow 0.2s;
+}
+
+.choice:hover{
+transform:scale(1.2);
+box-shadow:0 0 15px rgba(0,0,0,0.4);
+}
+
+.result-box{
+margin-top:30px;
+animation:fadeIn 0.5s;
+}
+
+.reset{
+margin-top:20px;
+padding:10px 20px;
+font-size:16px;
+border:none;
+border-radius:10px;
+background:black;
+color:white;
+cursor:pointer;
+}
+
+.reset:hover{
+background:#333;
+}
+
+ 

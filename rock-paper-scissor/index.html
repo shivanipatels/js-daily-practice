@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rock-paper-scissor</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="choices"> 
+      <button class="choice"
+        onclick="
+          let compuertChoice = genrateComputerchoice();
+          let result = resultMsg(compuertChoice, 'paper');
+          let showResultMsg = showResult(compuertChoice, 'paper', result);
+        "
+      >
+        📄
+      </button>
+      <button class="choice"
+        onclick="
+          compuertChoice = genrateComputerchoice();
+          result = resultMsg(compuertChoice, 'scissor');
+          showResultMsg = showResult(compuertChoice, 'scissor', result);
+        "
+      >
+        ✂️
+      </button>
+      <button class="choice"
+        onclick="
+          compuertChoice = genrateComputerchoice();
+          result = resultMsg(compuertChoice, 'rock');
+          showResultMsg = showResult(compuertChoice, 'rock', result);
+        "
+      >
+        🪨
+      </button>
+      </div>
+<div class="result-box">
+<p id="user-move"></p>
+<p id="computer-move"></p>
+<h2 id="result"></h2>
+<h3 id="score"></h3>
+</div>
+      <button class="reset"
+        onclick="
+          localStorage.clear();
+          resetScore();
+          showResult();
+        "
+      >
+        reset
+      </button>
+    
+    <script src="script.js">
+     
+    </script>
+  </body>
+</html>
