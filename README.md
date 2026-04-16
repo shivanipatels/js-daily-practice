@@ -28,6 +28,9 @@ A simple browser game where the user plays Rock-Paper-Scissors against the compu
 
 A classic Tic-Tac-Toe game built using JavaScript.
 
+**Live Demo**
+https://tic-tac-toe-two-gamma-19.vercel.app/
+
 **Features**
 
 * Two player gameplay
