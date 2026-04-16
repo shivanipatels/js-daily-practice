@@ -52,6 +52,9 @@ https://tic-tac-toe-two-gamma-19.vercel.app/
 
 A simple Myntra UI clone with basic cart functionality.
 
+**Live Demo**
+https://myntra-clone-three-gules.vercel.app/
+
 **Features**
 
 * Product listing
